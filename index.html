@@ -1,0 +1,584 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>FishFry</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="/assets/_slick/slick.css">
+        <link rel="stylesheet" href="/assets/_slick/slick-theme.css">
+        <link rel="stylesheet" href="/assets/_mdi/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="max-w-screen-xl mx-auto">
+
+                <div class="flex justify-between px-8">
+
+                    <div class="logo flex justify-center">
+                        <img class="h-16 w-auto py-2" src="/assets/img/logo.png" alt="">
+                    </div>
+
+                    <ul id="NavMenu" class="hidden md:flex justify-center space-x-4 text-center font-semibold text-white text-xl">
+                        <li class="py-4 hover:text-amber-400">
+                            <a href="#Fishes">Fishes</a>
+                        </li>
+                        <li class="py-4 hover:text-amber-400">
+                            <a href="#Plants">Plants</a>
+                        </li>
+                        <li class="py-4 hover:text-amber-400">
+                            <a href="#DeliveryAndPayment">Delivery & Payment</a>
+                        </li>
+                        <li class="py-4 hover:text-amber-400">
+                            <a href="#Contact">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <div id="navMenuModal" class="hidden w-full h-full px-8 fixed top-0 left-0 bg-black/90">
+
+                        <div class="nav-menu-toggle absolute top-0 right-8 p-4 text-white hover:text-amber-400 text-xl cursor-pointer">
+                            <i class="mdi mdi-close"></i>
+                        </div>
+
+                        <ul class="my-16 font-semibold text-left text-white text-4xl">
+                            <li class="py-4 hover:text-amber-400">
+                                <a href="#Fishes">Fishes</a>
+                            </li>
+                            <li class="py-4 hover:text-amber-400">
+                                <a href="#Plants">Plants</a>
+                            </li>
+                            <li class="py-4 hover:text-amber-400">
+                                <a href="#DeliveryAndPayment">Delivery & Payment</a>
+                            </li>
+                            <li class="py-4 hover:text-amber-400">
+                                <a href="#Contact">Contact us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="nav-menu-toggle block md:hidden menu-toggle p-4 text-white hover:text-amber-400 text-xl cursor-pointer">
+                        <i class="mdi mdi-menu"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+
+        <div id="Home" class="hero screen w-full h-full -mt-16 py-20 bg-center bg-cover bg-no-repeat"
+        style="background-image: url(/assets/img/hero.jpg)">
+
+            <div class="max-w-screen-xl mx-auto py-0 sm:py-16">
+                <div class="px-8 text-center sm:text-left">
+
+                    <h1 class="text-amber-400 text-6xl sm:text-7xl font-extrabold text-shadow ">
+                        Amazing fishes in<br>search of friends
+                    </h1>
+
+                    <div class="w-44 mx-auto sm:mx-0 my-8 sm:my-12 border-b-4 border-white "></div>
+
+                    <p class="mt-4 text-white text-xl text-shadow leading-relaxed">
+                        Many fishes are looking for friends who will love and care for them.<br>
+                        Be a longing for your fish right now
+                    </p>
+
+                    <div class="w-80 mx-auto sm:mx-0 my-8 sm:my-12 text-center text-white text-xl font-bold flex space-x-4 ">
+                        <a href="#Fishes" class="w-60 py-3 bg-amber-400 rounded-md">Buy now</a>
+                        <a href="#More" class="w-60 py-3 border rounded-md hover:bg-white hover:text-amber-400">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="More" class="screen mt-28 px-8 max-w-screen-xl mx-auto">
+            <div class="block sm:flex justify-between space-y-16 sm:space-y-0 sm:space-x-16 mt-16">
+
+                <div class="w-full">
+                    <div class="w-full h-80 border-8 rounded-3xl border-amber-400 shadow-2xl shadow-sky-900 bg-center bg-cover bg-no-repeat"
+                    style="background-image: url(/assets/img/fish.jpg)">
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <h2 class="text-center sm:text-right font-bold text-5xl text-sky-900">About Aquarium fish</h2>
+
+                    <div class="w-28 mt-4 mx-auto sm:float-right border-b-4 border-amber-400 "></div>
+
+                    <p class="mt-8 text-xl text-sky-900 leading-relaxed text-justify">
+                        We offer a variety of fish, so sometimes it is difficult to choose some of them.
+                        You can contact us by phone, e-mail or visit the store directly.
+                        But it's even easier to get the information you need right now on the site.
+                        Here is a catalog of aquarium fish, which has not only their photos,
+                        but also detailed descriptions, nature and size. You can order fish
+                        immediately from the catalog by clicking the desired button.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Fishes" class="offers screen mt-28">
+            <div class="text-center text-sky-900">
+                <h2 class="font-bold text-5xl">Top Selling Fish</h2>
+                <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+            </div>
+
+            <div class="mt-8 slider">
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/angel-small.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Angel(small)</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$10</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/guppies.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Guppies</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$3.95</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/mollie.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Mollie</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$4.95</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/angel-medium.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Angel(medium)</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$15</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/blue-ram.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Blue-ram</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$14.95</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/fish/angel-large.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Angel(large)</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$25.95</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="offers screen mt-28 max-w-screen-md mx-auto">
+            <div class="text-center text-sky-900">
+                <h2 class="font-bold text-5xl">Advice For Your Fish</h2>
+                <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+            </div>
+
+            <div class="w-full mt-8 px-8 text-sky-900 ">
+                <div class="flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-chart-bubble text-4xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">
+                            Discover more about fish before you buy
+                        </h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            When it comes time to buy fish, take some time to research exactly what you are buying.
+                            Understand how big the fish will be, its temperament,
+                            space requirements and which fish it will get along with.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="mt-8 flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-fishbowl text-4xl text-center"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">
+                            Watch for changes in fish and aquarium
+                        </h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            Take a few minutes to observe the aquarium regularly.
+                            Watch for changes in the appearance, behavior or appetite of
+                            fish so that you immediately notice that something is wrong.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-shaker text-4xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">
+                            Avoid overfeeding fish
+                        </h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            Do not feed more than the fish will eat in a few minutes.
+                            Excess food is not only harmful to fish and can lead to disease,
+                            but it will contaminate the aquarium and can cause splashes
+                            of the above chemicals.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="screen mt-28 px-8 max-w-screen-xl mx-auto">
+            <div class="block sm:flex justify-between space-y-16 sm:space-y-0 sm:space-x-16 mt-16">
+                <div class="w-full">
+                    <h2 class="text-center sm:text-left font-bold text-5xl text-sky-900">Aquarium plants</h2>
+
+                    <div class="mx-auto sm:float-left w-28 mt-4 border-b-4 border-amber-400"></div>
+
+                    <p class="mt-8 text-xl text-sky-900 leading-relaxed text-justify">
+                        Thanks to aquarium plants for fish in the aquarium conditions
+                        are close to natural. Aquarium plants, along with bacteria
+                        and the simplest organisms living in the aquarium,
+                        are involved in the cycle of substances: they clean the water
+                        from the products of life that are constantly formed in the
+                        water and harm fish, and aquarium plants, on the contrary,
+                        even need for normal growth. All types of plants are important
+                        for keeping fish.
+                    </p>
+
+                </div>
+
+                <div class="w-full">
+                    <div class="w-full h-80 border-8 rounded-3xl border-amber-400 shadow-2xl shadow-sky-900 bg-center bg-cover bg-no-repeat"
+                    style="background-image: url(/assets/img/aquarium.jpg)">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Plants" class="screen mt-28 max-w-screen-xl mx-auto">
+            <div class="text-center text-sky-900">
+                <h2 class="font-bold text-5xl">Top Selling Plants</h2>
+                <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+            </div>
+            <div class="mt-8 slider">
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/wisteria.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Wisteria</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$6.95</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/anubis.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Anubis</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$25</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/ludwigia.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Ludwigia</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$9.90</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/java-ferns.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Java ferns</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$10</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/java-moss.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Java moss</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$10</span>
+                    </div>
+                </div>
+
+                <div class="card m-6 border rounded-3xl shadow-lg overflow-hidden">
+                    <div class="card-image bg-center bg-cover bg-no-repeat" style="background-image: url(/assets/img/plants/vallisneria.jpg)"></div>
+                    <div class="card-title p-4">
+                        <h5 class="font-semibold text-2xl text-sky-900">Vallisneria</h5>
+                        <span class="font-semibold pt-5 text-2xl text-amber-400">$9.95</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="screen mt-28 max-w-screen-md mx-auto">
+            <div class="text-center text-sky-900">
+                <h2 class="font-bold text-5xl">Advice For Plants</h2>
+                <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+            </div>
+
+            <div class="w-full mt-8 px-8 text-sky-900">
+                <div class="mt-8 flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-lightbulb-on text-4xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">Light</h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            Lighting should be immediately after planting. In the beginning,
+                            daylight should be kept at 4-5 hours. Some still shine for 5-6 hours.
+                            Then there are fewer problems with algae fouling, plants grow more
+                            slowly but steadily.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-grass text-4xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">Soil</h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            The soil in the lawn aquarium has several functions.
+                            In addition to decorative and substrate for planting,
+                            it is an element of the entire biological filtration system.
+                            With good circulation, water passes through the soil,
+                            where it is purified by beneficial bacteria.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex justify-center space-x-8">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl ">
+                        <i class="mdi mdi-thermometer-water text-4xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">Water</h3>
+                        <div class="w-40 mt-4 border-b-4 border-amber-400"></div>
+                        <p class="mt-4 text-lg leading-relaxed text-justify">
+                            Most plants like soft or medium hard water (dH 6-10 °) with a pH
+                            level of 6.5 to 7.5. The average temperature is 24 ° C.For
+                            simple and unpretentious plants, tap water is also suitable,
+                            which can be defended for a day before.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full h-2 bg-amber-400 mt-28 shadow-lg"></div>
+
+        <div id="DeliveryAndPayment" class="delivery screen mt-28 max-w-screen-md mx-auto">
+            <div class="text-center text-sky-900">
+                <h2 class="font-bold text-5xl">Delivery & Payment</h2>
+                <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+            </div>
+
+            <div class="mt-8 px-8 grid grid-cols-1 sm:grid-cols-3 gap-y-8 text-center text-sky-900">
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-cart-outline text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Order</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        You can order through the form on the website,
+                        by phone number or social networks
+                    </p>
+                </div>
+
+                <div class="arrow text-center self-center ">
+                    <i class="hidden sm:block mdi mdi-arrow-right text-6xl"></i>
+                    <i class="block sm:hidden mdi mdi-arrow-down text-6xl"></i>
+                </div>
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-cogs text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Processing</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        Our consultant will contact you and place your order
+                    </p>
+                </div>
+
+
+                <div class="arrow hidden sm:block text-center "></div>
+
+                <div class="arrow hidden sm:block text-center "></div>
+
+                <div class="arrow text-center self-center ">
+                    <i class="mdi mdi-arrow-down text-6xl"></i>
+                </div>
+
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-package-variant text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Packing</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        Packing with oxygen, boxed in themal and shock resistant
+                        styrofoam boxs, sealed, and labled
+                    </p>
+                </div>
+
+                <div class="arrow text-center self-center ">
+                    <i class="hidden sm:block mdi mdi-arrow-left text-6xl"></i>
+                    <i class="block sm:hidden mdi mdi-arrow-down text-6xl"></i>
+                </div>
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-currency-usd text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Payment</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        You can pay by Credit cart or PayPal
+                    </p>
+                </div>
+
+
+                <div class="arrow text-center self-center ">
+                    <i class="mdi mdi-arrow-down text-6xl"></i>
+                </div>
+
+                <div class="arrow hidden sm:block text-center "></div>
+
+                <div class="arrow hidden sm:block text-center "></div>
+
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-dolly text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Shipment</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        Shipped as overnight registered post only
+                    </p>
+                </div>
+
+                <div class="arrow text-center self-center ">
+                    <i class="hidden sm:block mdi mdi-arrow-right text-6xl"></i>
+                    <i class="block sm:hidden mdi mdi-arrow-down text-6xl"></i>
+                </div>
+
+                <div class="dp-step-item">
+                    <div class="w-16 h-16 p-2 mx-auto border-4 border-amber-400 rounded-xl">
+                        <i class="mdi mdi-emoticon-happy-outline text-4xl"></i>
+                    </div>
+                    <h3 class="mt-3 font-bold text-2xl text-center">Happy customer</h3>
+                    <div class="w-40 mx-auto mt-4 border-b-4 border-amber-400"></div>
+                    <p class="mt-4 text-lg leading-relaxed text-center sm:text-justify">
+                        Now you have a new friend
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <footer id="Contact" class="w-full py-16 mt-28 bg-center bg-cover bg-no-repeat"
+        style="background-image: url(/assets/img/footer.jpg)">
+            <div class="max-w-screen-md mx-auto px-8">
+                <div class="text-center text-sky-900">
+                    <h2 class="text-center text-white font-bold text-5xl">Contact us</h2>
+                    <div class="mt-4 mx-auto border-b-4 border-amber-400 w-28"></div>
+                </div>
+
+                <form method="post">
+                    <div class="mt-8 flex justify-center space-x-8 ">
+                        <input class="w-full p-4 bg-white rounded-xl border-4 border-white focus:border-amber-400 focus:outline-none"
+                            type="text" name="name" placeholder="Your name" required>
+                        <input class="w-full p-4 bg-white rounded-xl border-4 border-white focus:border-amber-400 focus:outline-none"
+                            type="tel" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="mt-8">
+                        <textarea class="w-full p-4 bg-white rounded-xl border-4 border-white focus:border-amber-400 focus:outline-none resize-none"
+                            name="desc" rows="3" placeholder="How we can help you?"></textarea>
+                    </div>
+
+                    <div class="mt-8 text-center">
+                        <button type="submit" class="px-12 py-4 text-white font-bold rounded-xl bg-amber-400">Send message</button>
+                    </div>
+                </form>
+
+                <div class="form-success my-8 text-center text-white hidden">
+                    <i class="mdi mdi-checkbox-marked-circle-outline text-7xl text-amber-400"></i>
+                    <br>
+                    <div class="mt-4 text-4xl">SUCCESS</div>
+                </div>
+
+                <div class="my-12 text-white text-center text-amber-400">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Ut elit tellus, luctus nec ullamcorper mattis.
+                </div>
+
+                <div class="my-8 text-center text-white hover:text-amber-400 text-2xl">
+                    <a href="tel:800-800-800-800"><i class="mdi mdi-phone "></i> 800-800-800-800</a>
+                </div>
+
+                <div class="my-8">
+                    <ul class="flex justify-center space-x-5 text-2xl text-center text-white">
+                        <li class="hover:text-amber-400">
+                            <a href="#"><i class="mdi mdi-facebook"></i></a>
+                        </li>
+                        <li class="hover:text-amber-400">
+                            <a href="#"><i class="mdi mdi-twitter"></i></a>
+                        </li>
+                        <li class="hover:text-amber-400">
+                            <a href="#"><i class="mdi mdi-instagram"></i></a>
+                        </li>
+                        <li class="hover:text-amber-400">
+                            <a href="#"><i class="mdi mdi-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="my-8 text-center text-4xl text-white">
+                    <a href="#Home">
+                        <i class="mdi mdi-arrow-up "></i>
+                    </a>
+                </div>
+
+                <div class="my-8 text-white text-center">
+                    <small>&copy; FishFry • 2022</small>
+                </div>
+
+                <div class="my-8 text-white text-center">
+                    <small>Designed & developed by Victoria Mikhnevich</small>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="/assets/_slick/slick.min.js"></script>
+        <script src="/assets/js/main.js"></script>
+
+    </body>
+</html>
